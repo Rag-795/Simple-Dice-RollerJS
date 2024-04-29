@@ -9,7 +9,7 @@ function roll()
     
     if(numofDice > 100 || numofDice <=0)
     {
-        diceResult.innerHTML= "Invalid input! Please enter a number between  1 and 10.";
+        diceResult.innerHTML= "Invalid input! Please enter a number between  1 and 100.";
         return;
     }
 
